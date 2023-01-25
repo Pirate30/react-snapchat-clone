@@ -24,6 +24,7 @@ function WebCamCapture() {
     dispatch(setCameraImg(imgSrc));
 
     navigate("/preview");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [webCamRef]);
   return (
     <div className="webcamCapture">
