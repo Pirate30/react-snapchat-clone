@@ -21,7 +21,7 @@ function App() {
       if (authUser) {
         dispatch(
           login({
-            usernamw: authUser.user.displayName,
+            username: authUser.user.displayName,
             profilePic: authUser.user.photoURL,
             id: authUser.user.uid,
           })
